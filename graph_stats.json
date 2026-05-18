@@ -1,0 +1,145 @@
+{
+  "total_nodes": 10946,
+  "total_edges": 12451,
+  "node_types": {
+    "CareerSituation": 1897,
+    "ProblemType": 10,
+    "Role": 991,
+    "Constraint": 5684,
+    "Advice": 1897,
+    "Outcome": 467
+  },
+  "edge_types": {
+    "HAS_PROBLEM": 1897,
+    "CURRENTLY_IN": 1033,
+    "TARGETING": 583,
+    "FACES_CONSTRAINT": 6544,
+    "HAS_ADVICE": 1897,
+    "LEADS_TO": 467,
+    "SIMILAR_SITUATION": 30
+  },
+  "outcome_sentiment": {
+    "positive": 303,
+    "negative": 80,
+    "mixed": 76,
+    "unknown": 8
+  },
+  "top_problem_types": [
+    {
+      "label": "job_search",
+      "in_degree": 462
+    },
+    {
+      "label": "other",
+      "in_degree": 326
+    },
+    {
+      "label": "career_switch",
+      "in_degree": 288
+    },
+    {
+      "label": "education_decision",
+      "in_degree": 234
+    },
+    {
+      "label": "burnout",
+      "in_degree": 183
+    },
+    {
+      "label": "workplace_conflict",
+      "in_degree": 168
+    },
+    {
+      "label": "layoff",
+      "in_degree": 122
+    },
+    {
+      "label": "salary_negotiation",
+      "in_degree": 81
+    }
+  ],
+  "top_roles": [
+    {
+      "label": "software_engineer",
+      "in_degree": 69
+    },
+    {
+      "label": "it",
+      "in_degree": 62
+    },
+    {
+      "label": "help_desk",
+      "in_degree": 33
+    },
+    {
+      "label": "programmer",
+      "in_degree": 27
+    },
+    {
+      "label": "developer",
+      "in_degree": 25
+    },
+    {
+      "label": "software_developer",
+      "in_degree": 24
+    },
+    {
+      "label": "engineer",
+      "in_degree": 16
+    },
+    {
+      "label": "it_support",
+      "in_degree": 14
+    },
+    {
+      "label": "tech",
+      "in_degree": 13
+    },
+    {
+      "label": "intern",
+      "in_degree": 13
+    }
+  ],
+  "top_constraints": [
+    {
+      "label": "burnout",
+      "in_degree": 43
+    },
+    {
+      "label": "laid_off",
+      "in_degree": 22
+    },
+    {
+      "label": "lack_of_experience",
+      "in_degree": 19
+    },
+    {
+      "label": "low_pay",
+      "in_degree": 15
+    },
+    {
+      "label": "long_commute",
+      "in_degree": 14
+    },
+    {
+      "label": "high_competition",
+      "in_degree": 13
+    },
+    {
+      "label": "imposter_syndrome",
+      "in_degree": 13
+    },
+    {
+      "label": "toxic_work_environment",
+      "in_degree": 12
+    },
+    {
+      "label": "mental_health_issues",
+      "in_degree": 12
+    },
+    {
+      "label": "lack_of_motivation",
+      "in_degree": 12
+    }
+  ]
+}
